@@ -9,9 +9,9 @@
 <body>
     <h1>Calories Calculator</h1>
     <div id="container">
-        <form action="">Budget</form>
+        <form action="">BUDGET</form>
         <input type="text" name="budget" id="budget">
-    </div>
+    
     <fieldset id="breakfast">
         <legend>Breakfast</legend>
         <input type="text" name="breakfast" id="breakfast">
@@ -22,6 +22,29 @@
     <fieldset id="dinner">
         <legend>Dinner</legend>
         <input type="text" name="dinner" id="dinner"></fieldset>
-
+    <fieldset id="snacks">
+        <legend>Snacks</legend>
+        <input type="text" name="snacks" id="snacks">
+    </fieldset>
+    <fieldset id="exercise">
+        <legend>Exercise</legend>
+        <input type="text" name="exercise" id="exercise">
+    </fieldset>
+</div>
+<div id="container">
+    <h2>ADD ENTRY</h2>
+    <select id="new-entry">
+        <option value="breakfast" selected>Breakfast</option>
+        <option value="lunch">Lunch</option>
+        <option value="dinner">Dinner</option>
+        <option value="snacks">Snacks</option>
+        <option value="exercise">Exercise</option>
+    </select>
+    <button id="submit">Add Entry</button>
+    <div id="container1">
+        <button id="calculate" class="button1">Calculate</button>
+        <button id="reset" class="button2">Reset</button>
+    </div>
+</div>
 </body>
 </html>
