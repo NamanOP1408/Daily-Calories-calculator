@@ -6,3 +6,7 @@ const addEntry = getDocmentById('add-entry');
 const calculate = getDocmentById('calculate');
 const reset = getDocmentById('reset');
 
+function isInvalidInput(str) {
+    const regex = /[+-\s]/g;
+    return regex.replace(str, '');
+}
